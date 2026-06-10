@@ -58,13 +58,31 @@ git clone https://github.com/Rodrigo-Sil/salaoDeBeleza_api_integrado.git
 cd salaoDeBeleza_api_integrado
 ```
 
-2️⃣ Instalar as dependências
+2️⃣ Criar arquivo .env na raíz
+   1️⃣ Configuração do Ambiente (Banco):
+      DB_HOST=localhost
+      DB_USER=root
+      DB_PASSWORD=
+      DB_NAME=salaodebeleza
+      PORT=3000
+      
+3️⃣ Copiar Banco e popular:
+
+4️⃣ Instalar as dependências
 ```bash
 npm install
 ```
 
-3️⃣ Executar o servidor de desenvolvimento
+5️⃣ Executar o servidor de desenvolvimento
+Backend:
 ```bash
+cd src/
+npm run dev
+```
+Frontend:
+```bash
+cd frontend/
+npm install
 npm run dev
 ```
 
