@@ -59,7 +59,9 @@ cd salaoDeBeleza_api_integrado
 ```
 
 2️⃣ Criar arquivo .env na raíz
+
    1️⃣ Configuração do Ambiente (Banco):
+   
       DB_HOST=localhost
       DB_USER=root
       DB_PASSWORD=
