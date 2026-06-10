@@ -74,6 +74,7 @@ npm install
 ```
 
 5️⃣ Executar o servidor de desenvolvimento
+
 Backend:
 ```bash
 cd src/
