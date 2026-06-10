@@ -75,7 +75,7 @@ Backend
 
 Frontend
 
-http://localhost:5173
+👉 http://localhost:5173
 
 **Caso você não saiba como usar o Postman para testar requisições HTTP, veja este guia rápido:**  
 [Como usar o Postman?](https://www.youtube.com/watch?v=64-O-dDR7ic)
