@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.auth-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f4f6; 
+  font-family: "Inter", sans-serif;
+  padding: 1.5rem;
+}
+
+.auth-box {
+  width: 100%;
+  max-width: 400px; 
+  padding: 2.5rem 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05), 0 5px 15px -3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Playfair Display", serif; 
+  font-size: 2.2rem;
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.auth-box label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0.4rem;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  background-color: #ffffff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.auth-box input:focus {
+  border-color: #6d5dfc;
+  box-shadow: 0 0 0 3px rgba(109, 93, 252, 0.15);
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #6d5dfc; 
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 0.5rem;
+}
+
+.auth-box button:hover {
+  background-color: #4f46e5; 
+}
+
+.auth-box a {
+  display: block;
+  text-align: center;
+  margin-top: 1.25rem;
+  color: #64748b;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.auth-box a:hover {
+  color: #6d5dfc; 
+  text-decoration: underline;
+}
